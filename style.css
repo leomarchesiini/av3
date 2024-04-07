@@ -1,0 +1,74 @@
+body {
+    min-height: 100%;
+  }
+  .topo{
+    background-color:#E8E7E8;
+    position: fixed top;
+    height: 7vh;
+  }
+  .user{
+    float:right;
+    width: 50px ; 
+    height: 60px;
+  }
+  .icon-input{
+    width: 50vw;
+    height: 8vh;
+    border:2px solid gray;
+    background-image: url(./img/search_FILL0_wght400_GRAD0_opsz24.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+    padding-right: 50px;
+    border-radius: 12px;
+   margin:auto;
+   cursor: pointer;
+   
+  }
+  .busca{
+    display:flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+  }
+  .superior{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%, rgba(0,212,255,1) 100%);
+    width: 100%;
+    padding-top: 150px;
+    background-position: center top;
+  }
+  #botao{
+    width: 10%;
+    padding: 8px;
+    position:center;
+    border: 2px solid rgb(157, 158, 158);
+    border-radius: 12px;
+    cursor: pointer;
+    background-color:rgb(241, 239, 239) ;
+    transition: 4ms;    
+  }
+  #botao:hover{
+    background-color: rgba(204, 198, 198, 0.966);
+  }
+  #to-list,::content{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap:1rem;
+  }
+  #to-list li{
+  list-style-type: none;
+  text-transform: capitalize;
+  }
+  #button-add{
+    cursor: pointer;
+    border-radius: 12px;
+    border: 2px solid rgb(157, 158, 158);
+    background-color:rgb(241, 239, 239) ;
+    transition: 4ms;
+  }
+  #button-add:hover{
+  background-color: rgba(204, 198, 198, 0.966);
+  }
+   
+  

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css"> <!-- Correção do nome do arquivo CSS -->
+    <script type="text/javascript" src="index.js"></script>
+    <style>
+        body{
+            background: rgb(255,255,255);
+            background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%, rgba(0,212,255,1) 100%);
+        }
+    </style>
+</head>
+<body>
+    <header class="topo"> <!-- Correção da classe para corresponder ao CSS -->
+        <img class="user" src="./images/17004.png" >  
+    </header>
+    <main class="superior">
+        <form>
+            <div class="busca">
+                <input type="search" id="busca" name="busca" class="icon-input">
+            </div><br>
+            <div class="busca">
+                <input type="submit" value="Pesquisar" id="botao">
+                <button id="button-add">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                    </svg>
+                </button>
+            </div>
+        </form>
+        
+    </main><br>
+    <div class="content">
+        <ol id="todo-list"> <!-- Correção do id -->
+        </ol>
+    </div>
+</body>
+</html>
